@@ -51,7 +51,7 @@ class FamilyStructure:
             "lucky_numbers": member.get("lucky_numbers")
         }
         self._members.append(new_member)
-        return new_member
+        return new_member # It was also possible to do ‘return None’, it was left to free choice. 
 
     def delete_member(self, id):
         # fill this method and update the return
